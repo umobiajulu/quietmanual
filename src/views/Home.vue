@@ -137,7 +137,7 @@
         <div class="text-center mb-16 space-y-3">
           <p class="text-xs font-semibold tracking-widest uppercase text-[#c76e02]">The Guides</p>
           <h2 class="font-serif text-3xl md:text-4xl font-bold text-[#403110]">Start where you are</h2>
-          <p class="text-[#6b6560] max-w-lg mx-auto font-light">Two focused guides. One clear path. Begin free, then go deeper.</p>
+          <p class="text-[#6b6560] max-w-lg mx-auto font-light">Three focused guides. One clear path. Begin free, then go deeper.</p>
         </div>
         <div class="grid md:grid-cols-3 gap-6">
           <ProductCard
