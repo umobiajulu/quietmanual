@@ -94,6 +94,7 @@
         </div>
 
         <button
+          @click="handleClick"
           class="w-full py-3 rounded-md text-sm font-semibold tracking-wide transition-all duration-150 active:scale-95"
           :class="buttonStyle === 'filled'
             ? 'bg-[#c76e02] text-white hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#c76e02]/30'
@@ -108,7 +109,7 @@
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
   title:       { type: String,  required: true },
   tag:         { type: String,  required: true },
   tagColor:    { type: String,  default: 'primary' },
@@ -121,5 +122,18 @@ defineProps({
   highlighted: { type: Boolean, default: false },
   ribbon:      { type: String,  default: null },
   image:       { type: String,  required: true },
+  freeLink:    { type: String,  default: null },   // direct download URL for free product
+  selarLink:   { type: String,  default: null },
+  gumroadLink: { type: String,  default: null },
 })
+
+const emit = defineEmits(['buy'])
+
+function handleClick() {
+  if (props.freeLink) {
+    window.open(props.freeLink, '_blank')
+  } else {
+    emit('buy')
+  }
+}
 </script>

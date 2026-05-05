@@ -137,13 +137,14 @@
         <div class="text-center mb-16 space-y-3">
           <p class="text-xs font-semibold tracking-widest uppercase text-[#c76e02]">The Guides</p>
           <h2 class="font-serif text-3xl md:text-4xl font-bold text-[#403110]">Start where you are</h2>
-          <p class="text-[#6b6560] max-w-lg mx-auto font-light">Three focused guides. One clear path. Begin free, then go deeper.</p>
+          <p class="text-[#6b6560] max-w-lg mx-auto font-light">Two focused guides. One clear path. Begin free, then go deeper.</p>
         </div>
         <div class="grid md:grid-cols-3 gap-6">
           <ProductCard
             v-for="product in products"
             :key="product.title"
             v-bind="product"
+            @buy="openModal(product)"
           />
         </div>
       </div>
@@ -234,6 +235,17 @@
       </div>
     </footer>
 
+    <!-- PURCHASE MODAL -->
+    <PurchaseModal
+      v-if="modalProduct"
+      v-model="modalOpen"
+      :title="modalProduct.title"
+      :price="modalProduct.price"
+      :selar-link="modalProduct.selarLink"
+      :gumroad-link="modalProduct.gumroadLink"
+      :highlighted="modalProduct.highlighted"
+    />
+
   </div>
 </template>
 
@@ -241,12 +253,23 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import ValueCard from './ValueCard.vue'
 import ProductCard from './ProductCard.vue'
+import PurchaseModal from './PurchaseModal.vue'
 
 // ── Scroll-aware navbar ──────────────────────────────────────────────
 const scrolled = ref(false)
 const handleScroll = () => { scrolled.value = window.scrollY > 20 }
 onMounted(() => window.addEventListener('scroll', handleScroll))
 onUnmounted(() => window.removeEventListener('scroll', handleScroll))
+
+// ── Purchase modal ───────────────────────────────────────────────────
+const modalOpen = ref(false)
+const modalProduct = ref(null)
+
+function openModal(product) {
+  if (!product.selarLink && !product.gumroadLink) return
+  modalProduct.value = product
+  modalOpen.value = true
+}
 
 // ── Static data ──────────────────────────────────────────────────────
 const currentYear = new Date().getFullYear()
@@ -293,6 +316,9 @@ const products = [
     highlighted: false,
     ribbon: 'FREE',
     image: '/qm1.png',
+    freeLink: 'https://your-free-guide-link.com', // ← replace with actual download link
+    selarLink: null,
+    gumroadLink: null,
   },
   {
     title: 'Introduction to Investing',
@@ -312,6 +338,9 @@ const products = [
     highlighted: true,
     ribbon: 'MOST POPULAR',
     image: '/qm2.png',
+    freeLink: null,
+    selarLink: 'https://selar.co/your-intro-investing-link',       // ← replace
+    gumroadLink: 'https://your-store.gumroad.com/l/intro-investing', // ← replace
   },
   {
     title: 'Mastering the Stock Market',
@@ -331,6 +360,9 @@ const products = [
     highlighted: false,
     ribbon: 'PREMIUM',
     image: '/qm3.png',
+    freeLink: null,
+    selarLink: 'https://selar.co/your-mastering-stocks-link',          // ← replace
+    gumroadLink: 'https://your-store.gumroad.com/l/mastering-stocks',  // ← replace
   },
 ]
 
