@@ -284,7 +284,7 @@ const valueCards = [
   {
     icon: 'clarity',
     title: 'Clarity After Graduation',
-    description: 'Navigate the financial decisions that hit right after school — income, expenses, direction — with a structured framework, not guesswork.',
+    description: 'Navigate the financial decisions that hit right after school, income, expenses, direction, with a structured framework, not guesswork.',
   },
   {
     icon: 'investing',
@@ -324,7 +324,7 @@ const products = [
     title: 'Introduction to Investing',
     tag: 'Beginner Guide',
     tagColor: 'secondary',
-    description: 'A calm, structured introduction to safe, long-term investing — built for people who want to grow wealth without gambling it away.',
+    description: 'A calm, structured introduction to safe, long-term investing, built for people who want to grow wealth without gambling it away.',
     features: [
       'Safe investing principles & mindset',
       'The basics of compounding explained',
@@ -346,7 +346,7 @@ const products = [
     title: 'Mastering the Stock Market',
     tag: 'Premium Guide',
     tagColor: 'primary',
-    description: 'The advanced guide for those ready to go deeper into stocks — covering how to read companies, build a portfolio, and invest with discipline.',
+    description: 'The advanced guide for those ready to go deeper into stocks, covering how to read companies, build a portfolio, and invest with discipline.',
     features: [
       'How to research & evaluate stocks',
       'Reading financials with confidence',
@@ -379,7 +379,7 @@ const steps = [
   },
   {
     title: 'Apply a Structured System',
-    description: 'Use the investing guide as your reference system — a calm, disciplined approach to growing wealth.',
+    description: 'Use the investing guide as your reference system, a calm, disciplined approach to growing wealth.',
     badge: 'Paid Guide',
   },
 ]
