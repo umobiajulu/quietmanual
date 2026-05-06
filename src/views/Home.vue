@@ -316,7 +316,7 @@ const products = [
     highlighted: false,
     ribbon: 'FREE',
     image: '/qm1.png',
-    freeLink: '/AFTER-GRADUATION.pdf?' new Date().getTime(), // ← replace with actual download link
+    freeLink: '/AFTER-GRADUATION.pdf?' + new Date().getTime(), // ← replace with actual download link
     selarLink: null,
     gumroadLink: null,
   },
