@@ -167,7 +167,7 @@
               class="flex flex-col items-center text-center space-y-4"
             >
               <div class="relative z-10 w-20 h-20 rounded-full flex items-center justify-center shadow-md border"
-                :class="index === 0 ? 'bg-[#403110] border-[#403110] text-white' : index === 1 ? 'bg-white border-[#e8e4df] text-[#403110]' : 'bg-[#c76e02] border-[#c76e02] text-white'"
+                :class="index === 2 ? 'bg-[#403110] border-[#403110] text-white' : index === 0 ? 'bg-white border-[#e8e4df] text-[#403110]' : 'bg-[#c76e02] border-[#c76e02] text-white'"
               >
                 <span class="font-serif text-2xl font-bold">{{ index + 1 }}</span>
               </div>
