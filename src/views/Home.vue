@@ -375,7 +375,7 @@ const steps = [
   {
     title: 'Learn Investing Basics',
     description: 'Understand how markets work, common pitfalls, and how to think like a long-term investor.',
-    badge: null,
+    badge: 'Paid Guide',
   },
   {
     title: 'Apply a Structured System',
