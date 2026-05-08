@@ -55,7 +55,7 @@
                 </svg>
               </div>
               <div class="flex-1 text-left">
-                <p class="font-semibold text-sm leading-none mb-1">Buy on Selar</p>
+                <p class="font-semibold text-sm leading-none mb-1">Read on Selar</p>
                 <p class="text-white/60 text-xs">West Africa · Pay in Naira, Cedis &amp; more</p>
               </div>
               <svg class="w-4 h-4 text-white/40 group-hover:text-white/80 group-hover:translate-x-0.5 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
