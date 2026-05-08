@@ -19,9 +19,9 @@
           <!-- Header -->
           <div class="flex items-start justify-between p-6 pb-4">
             <div class="space-y-1 pr-8">
-              <p class="text-[10px] font-bold tracking-widest uppercase text-[#a09070]">Get Instant Access</p>
+              <p class="text-[10px] font-bold tracking-widest uppercase text-[#a09070]">Get Instant ReadOnly Access</p>
               <h2 class="font-serif text-xl font-bold text-[#403110] leading-snug">{{ title }}</h2>
-              <p class="text-sm text-[#6b6560] font-light">{{ price }} · One-time payment · Instant PDF</p>
+              <p class="text-sm text-[#6b6560] font-light">{{ price }} · One-time payment</p>
             </div>
             <button
               @click="$emit('update:modelValue', false)"
@@ -38,7 +38,7 @@
 
           <!-- Region choice -->
           <div class="p-6 space-y-4">
-            <p class="text-xs font-semibold text-[#6b6560] tracking-wide uppercase">Choose your region to buy</p>
+            <!-- <p class="text-xs font-semibold text-[#6b6560] tracking-wide uppercase">Choose your region to buy</p> -->
 
             <!-- Selar — West Africa -->
             <a
