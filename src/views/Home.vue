@@ -342,7 +342,7 @@ const products = [
     ribbon: 'MOST POPULAR',
     image: '/qm2.png',
     freeLink: null,
-    selarLink: 'https://selar.co/your-intro-investing-link',       // ← replace
+    selarLink: 'https://selar.com/o7r73x8y6o',       // ← replace
     gumroadLink: 'https://your-store.gumroad.com/l/intro-investing', // ← replace
   },
   {
