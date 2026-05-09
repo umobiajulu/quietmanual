@@ -343,7 +343,7 @@ const products = [
     image: '/qm2.png',
     freeLink: null,
     selarLink: 'https://selar.com/o7r73x8y6o',       // ← replace
-    gumroadLink: 'https://your-store.gumroad.com/l/intro-investing', // ← replace
+    gumroadLink: null, // ← replace
   },
   {
     title: 'Mastering the Stock Market',
@@ -364,8 +364,8 @@ const products = [
     ribbon: 'PREMIUM',
     image: '/qm3.png',
     freeLink: null,
-    selarLink: 'https://selar.co/your-mastering-stocks-link',          // ← replace
-    gumroadLink: 'https://your-store.gumroad.com/l/mastering-stocks',  // ← replace
+    selarLink: null,          // ← replace
+    gumroadLink: null,  // ← replace
   },
 ]
 
