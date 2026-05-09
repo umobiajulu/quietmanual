@@ -303,7 +303,7 @@ const valueCards = [
 
 const products = [
   {
-    title: 'After Graduation',
+    title: 'Navigating Life After Graduation',
     tag: 'Free Guide',
     tagColor: 'primary',
     description: 'A structured guide to help you understand what to do after graduation, avoid financial confusion, and build a clear personal money direction.',
