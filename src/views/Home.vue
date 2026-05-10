@@ -364,7 +364,7 @@ const products = [
     ribbon: 'PREMIUM',
     image: '/qm3.png',
     freeLink: null,
-    selarLink: null,          // ← replace
+    selarLink: 'https://selar.com/fw9c8g8877',          // ← replace
     gumroadLink: null,  // ← replace
   },
 ]
