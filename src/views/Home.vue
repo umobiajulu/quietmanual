@@ -231,7 +231,7 @@
           <nav class="flex gap-8">
             <a href="#" class="text-sm text-[#6b6560] hover:text-[#403110] transition-colors">Home</a>
             <a href="#products" class="text-sm text-[#6b6560] hover:text-[#403110] transition-colors">Products</a>
-            <a href="mailto:hello@quietmanual.com" class="text-sm text-[#6b6560] hover:text-[#403110] transition-colors">Contact</a>
+            <a href="mailto:quietmanual9@gmail.com" class="text-sm text-[#6b6560] hover:text-[#403110] transition-colors">Contact</a>
           </nav>
           <p class="text-xs text-[#a09070]">© {{ currentYear }} QuietManual. All rights reserved.</p>
         </div>
