@@ -353,7 +353,7 @@ const products = [
       'Portfolio construction & risk control',
       'Long-term stock investing system',
     ],
-    price: '$199.99',
+    price: '$399.99',
     priceNote: 'One-time payment · Instant Access',
     buttonText: 'Get Instant Access',
     buttonStyle: 'outline',
