@@ -309,7 +309,7 @@ const products = [
       'Avoiding common costly mistakes',
       'Building a personal money direction',
     ],
-    price: '$2.56',
+    price: '$3.99',
     priceNote: 'One-time payment · Instant Access',
     buttonText: 'Get Instant Access',
     buttonStyle: 'outline',
