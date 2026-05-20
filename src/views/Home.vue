@@ -16,8 +16,7 @@
           <li><a href="#about" class="text-sm font-medium text-[#6b6560] hover:text-[#403110] transition-colors">About</a></li>
         </ul>
         <a
-          target="_blank"
-          :href="'/AFTER-GRADUATION.pdf?' + new Date().getTime()"
+          href="#products"
           class="text-sm font-semibold text-white bg-[#403110] px-5 py-2 rounded-md hover:-translate-y-0.5 hover:shadow-lg transition-all duration-150"
         >
           Get Free Guide
@@ -56,8 +55,7 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
             <a
-              target="_blank"
-              :href="'/AFTER-GRADUATION.pdf?' + new Date().getTime()"
+              href="#products"
               class="inline-flex items-center justify-center gap-2 bg-[#403110] text-white text-sm font-semibold px-7 py-3.5 rounded-md hover:-translate-y-0.5 hover:shadow-xl transition-all duration-150"
             >
               Get Free Guide
@@ -207,8 +205,7 @@
         </div>
         <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
           <a
-            target="_blank"
-            :href="'/AFTER-GRADUATION.pdf?' + new Date().getTime()"
+            href="#products"
             class="inline-flex items-center justify-center gap-2 bg-[#c76e02] text-white text-sm font-semibold px-7 py-3.5 rounded-md hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#c76e02]/20 transition-all duration-150"
           >
             Start with the Free Guide
