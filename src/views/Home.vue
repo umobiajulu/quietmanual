@@ -101,8 +101,8 @@
                 </div>
                 <div class="pt-2 border-t border-[#e8e4df]">
                   <div class="flex items-center justify-between">
-                    <span class="text-xs text-[#6b6560]">PDF Guide · Instant Download</span>
-                    <span class="text-xs font-bold text-[#c76e02] bg-[#c76e02]/8 px-2 py-1 rounded">FREE</span>
+                    <span class="text-xs text-[#6b6560]">PDF Guide · Instant Access</span>
+                    <span class="text-xs font-bold text-[#c76e02] bg-[#c76e02]/8 px-2 py-1 rounded">BASIC</span>
                   </div>
                 </div>
               </div>
@@ -316,7 +316,7 @@ const products = [
     highlighted: false,
     ribbon: 'BASIC',
     image: '/qm1.png',
-    freeLink: null, // ← replace with actual download link
+    freeLink: null,
     selarLink: 'https://selar.com/pv411o9y14',
     gumroadLink: null,
   },
