@@ -19,7 +19,7 @@
           href="#products"
           class="text-sm font-semibold text-white bg-[#403110] px-5 py-2 rounded-md hover:-translate-y-0.5 hover:shadow-lg transition-all duration-150"
         >
-          Get Free Guide
+          Get Basic Guide
         </a>
       </div>
     </nav>
@@ -58,7 +58,7 @@
               href="#products"
               class="inline-flex items-center justify-center gap-2 bg-[#403110] text-white text-sm font-semibold px-7 py-3.5 rounded-md hover:-translate-y-0.5 hover:shadow-xl transition-all duration-150"
             >
-              Get Free Guide
+              Get Baisc Guide
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
             <a
@@ -89,8 +89,8 @@
                     <svg class="w-5 h-5 text-[#403110]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
                   </div>
                   <div>
-                    <p class="font-serif font-semibold text-[#403110] text-sm">After Graduation</p>
-                    <p class="text-xs text-[#c76e02] font-semibold">Free Guide</p>
+                    <p class="font-serif font-semibold text-[#403110] text-sm">Navigating Life After Graduation</p>
+                    <p class="text-xs text-[#c76e02] font-semibold">Basic Guide</p>
                   </div>
                 </div>
                 <div class="space-y-2">
@@ -208,7 +208,7 @@
             href="#products"
             class="inline-flex items-center justify-center gap-2 bg-[#c76e02] text-white text-sm font-semibold px-7 py-3.5 rounded-md hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#c76e02]/20 transition-all duration-150"
           >
-            Start with the Free Guide
+            Start with the Basic Guide
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
           </a>
         </div>
@@ -301,7 +301,7 @@ const valueCards = [
 const products = [
   {
     title: 'Navigating Life After Graduation',
-    tag: 'Free Guide',
+    tag: 'Basic Guide',
     tagColor: 'primary',
     description: 'A structured guide to help you understand what to do after graduation, avoid financial confusion, and build a clear personal money direction.',
     features: [
@@ -309,12 +309,12 @@ const products = [
       'Avoiding common costly mistakes',
       'Building a personal money direction',
     ],
-    price: null,
-    priceNote: 'Completely Free',
-    buttonText: 'Download Free',
+    price: '$2.56',
+    priceNote: 'One-time payment · Instant Access',
+    buttonText: 'Get Instant Access',
     buttonStyle: 'outline',
     highlighted: false,
-    ribbon: 'FREE',
+    ribbon: 'BASIC',
     image: '/qm1.png',
     freeLink: null, // ← replace with actual download link
     selarLink: 'https://selar.com/pv411o9y14',
@@ -369,7 +369,7 @@ const products = [
 const steps = [
   {
     title: 'Start With Clarity',
-    description: 'Download the free After Graduation guide and build your financial foundation before anything else.',
+    description: 'Download the basic Navigating Life After Graduation guide and build your financial foundation before anything else.',
     badge: 'Free',
   },
   {
