@@ -331,7 +331,7 @@ const products = [
       'Bonds, T-Bills & how they work',
       'Index funds & passive investing',
     ],
-    price: '$9.99',
+    price: '$39.99',
     priceNote: 'One-time payment · Instant Access',
     buttonText: 'Get Instant Access',
     buttonStyle: 'filled',
