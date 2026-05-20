@@ -319,8 +319,8 @@ const products = [
     highlighted: false,
     ribbon: 'FREE',
     image: '/qm1.png',
-    freeLink: '/AFTER-GRADUATION.pdf?' + new Date().getTime(), // ← replace with actual download link
-    selarLink: null,
+    freeLink: null, // ← replace with actual download link
+    selarLink: 'https://selar.com/pv411o9y14',
     gumroadLink: null,
   },
   {
