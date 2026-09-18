@@ -95,7 +95,7 @@
 
         <button
           @click="handleClick"
-          class="w-full py-3 rounded-md text-sm font-semibold tracking-wide transition-all duration-150 active:scale-95"
+          class="w-full py-3 rounded-md text-sm font-semibold tracking-wide transition-all duration-150 active:scale-95 cursor-pointer"
           :class="buttonStyle === 'filled'
             ? 'bg-[#c76e02] text-white hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#c76e02]/30'
             : 'border-2 border-[#403110] text-[#403110] hover:bg-[#403110] hover:text-white hover:-translate-y-0.5 hover:shadow-md'"

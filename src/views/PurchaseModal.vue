@@ -42,21 +42,20 @@
 
             <!-- Selar — West Africa -->
             <a
-              :href="selarLink"
+              :href="gumroadLink"
               target="_blank"
               rel="noopener noreferrer"
               class="group flex items-center gap-4 w-full bg-[#403110] text-white rounded-xl px-5 py-4 hover:bg-[#4f3d14] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#403110]/30 transition-all duration-150"
             >
               <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0">
-                <!-- Map pin icon -->
                 <svg class="w-5 h-5 text-[#c76e02]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>
               </div>
               <div class="flex-1 text-left">
-                <p class="font-semibold text-sm leading-none mb-1">Read on Selar</p>
-                <p class="text-white/60 text-xs">West Africa · Pay in Naira, Cedis &amp; more</p>
+                <p class="font-semibold text-sm leading-none mb-1">Buy on Gumroad</p>
+                <p class="text-white/60 text-xs">Pay with card or PayPal</p>
               </div>
               <svg class="w-4 h-4 text-white/40 group-hover:text-white/80 group-hover:translate-x-0.5 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -64,8 +63,8 @@
             </a>
 
             <!-- Gumroad — Rest of World -->
-            <!-- <a
-              :href="gumroadLink"
+            <a
+              :href="selarLink"
               target="_blank"
               rel="noopener noreferrer"
               class="group flex items-center gap-4 w-full bg-white border-2 border-[#e8e4df] text-[#403110] rounded-xl px-5 py-4 hover:border-[#403110]/40 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#403110]/8 transition-all duration-150"
@@ -76,13 +75,13 @@
                 </svg>
               </div>
               <div class="flex-1 text-left">
-                <p class="font-semibold text-sm leading-none mb-1">Buy on Gumroad</p>
-                <p class="text-[#a09070] text-xs">Rest of the world · Pay with card or PayPal</p>
+                <p class="font-semibold text-sm leading-none mb-1">Read on Selar</p>
+                <p class="text-[#a09070] text-xs">Rest of the world · Pay in Naira, Cedis &amp; more</p>
               </div>
               <svg class="w-4 h-4 text-[#a09070] group-hover:text-[#403110] group-hover:translate-x-0.5 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
               </svg>
-            </a> -->
+            </a>
           </div>
 
           <!-- Footer note -->

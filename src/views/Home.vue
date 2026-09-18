@@ -318,7 +318,7 @@ const products = [
     image: '/qm1.png',
     freeLink: null,
     selarLink: 'https://selar.com/pv411o9y14',
-    gumroadLink: null,
+    gumroadLink: 'https://udemezue6.gumroad.com/l/scoxbh',
   },
   {
     title: 'Introduction to Investing',
@@ -340,7 +340,7 @@ const products = [
     image: '/qm2.png',
     freeLink: null,
     selarLink: 'https://selar.com/o7r73x8y6o',       // ← replace
-    gumroadLink: null, // ← replace
+    gumroadLink: 'https://udemezue6.gumroad.com/l/o7r73x8y6o', // ← replace
   },
   {
     title: 'Mastering the Stock Market',
@@ -362,7 +362,7 @@ const products = [
     image: '/qm3.png',
     freeLink: null,
     selarLink: 'https://selar.com/fw9c8g8877',          // ← replace
-    gumroadLink: null,  // ← replace
+    gumroadLink: 'https://udemezue6.gumroad.com/l/snesi',  // ← replace
   },
 ]
 
