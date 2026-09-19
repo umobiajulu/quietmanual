@@ -54,7 +54,7 @@
                 </svg>
               </div>
               <div class="flex-1 text-left">
-                <p class="font-semibold text-sm leading-none mb-1">Buy on Gumroad</p>
+                <p class="font-semibold text-sm leading-none mb-1">Read on Gumroad</p>
                 <p class="text-white/60 text-xs">Pay with card or PayPal</p>
               </div>
               <svg class="w-4 h-4 text-white/40 group-hover:text-white/80 group-hover:translate-x-0.5 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
